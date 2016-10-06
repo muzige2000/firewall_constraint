@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "firewallconstraint"
   
-  s.add_dependency(%q<rails>, ["> 3.0.0", "< 5.0.0"])
+  s.add_dependency(%q<rails>, ["> 3.0.0", "<= 5.0.0"])
   s.add_dependency(%q<ipaddress>, ['~> 0.8'])
   s.add_development_dependency(%q<rspec-rails>, ["~> 3.2"])
   
